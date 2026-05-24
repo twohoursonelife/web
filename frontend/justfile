@@ -1,0 +1,22 @@
+# Command runner for Two Hours One Life Frontend
+
+# Install tools and dependencies
+bootstrap:
+    mise install
+    bun install
+
+# Start development server
+dev:
+    bun run dev
+
+# Build and prerender for production
+build:
+    bun run build
+
+# Preview the production build locally
+preview:
+    bun run preview
+
+# Clean build artifacts and dependencies
+clean:
+    rm -rf .nuxt .output node_modules
