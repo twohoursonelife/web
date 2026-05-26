@@ -33,5 +33,18 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: ['/']
     }
+  },
+
+  ogImage: { 
+    zeroRuntime: true 
+  },
+
+  vite: {
+    optimizeDeps: {
+      include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit',
+      ]
+    }
   }
 })
