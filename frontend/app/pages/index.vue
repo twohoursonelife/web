@@ -1,89 +1,103 @@
-<script setup lang="ts">
-useHead({
-  title: 'Two Hours One Life - Multiplayer Survival & Civilization Building Game'
-})
-</script>
-
 <template>
   <div>
-    <!-- Hero Section -->
-    <section class="relative py-20 md:py-32 overflow-hidden bg-gradient-to-b from-primary-50 to-background dark:from-primary-950/20 dark:to-background" aria-labelledby="hero-heading">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <h1 id="hero-heading" class="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-gray-950 dark:text-white leading-none">
-          One Life. <span class="text-primary-600 dark:text-primary-400">Two Hours.</span><br />
-          Infinite Possibilities.
+    <section class="relative bg-zinc-900 text-white pt-16 pb-24 px-6 border-t border-zinc-800 overflow-hidden">
+      <div class="absolute inset-0 z-0">
+        <img src="https://twohoursonelife.com/wp-content/uploads/2019/06/3.png" class="w-full h-full object-cover" alt="Hero Background" />
+        <div class="absolute inset-0 bg-zinc-900/70"></div>
+      </div>
+      
+      <div class="relative z-10 max-w-5xl mx-auto text-center space-y-8">
+        <h1 class="text-5xl md:text-6xl font-extrabold leading-tight font-heading drop-shadow-lg">
+          Two Hours <span class="text-[#ffbb35]">One Life</span>
         </h1>
-        <p class="mt-6 text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-          Every minute represents a year. Born as a helpless baby to another player, you have exactly two hours to survive, thrive, collaborate, and leave a lasting legacy for the next generation.
+        <p class="text-xl md:text-2xl text-zinc-200 max-w-2xl mx-auto font-medium">
+          A multiplayer survival game of parenting and civilization building. Live an entire life, leave a legacy, and rebuild society from scratch.
         </p>
-        <div class="mt-10 flex flex-wrap justify-center gap-4">
-          <UButton
-            size="xl"
-            color="primary"
-            variant="solid"
-            to="/about"
-            aria-label="Learn more about the game"
+        
+        <div class="flex flex-col items-center gap-4 pt-4">
+          <UButton 
+            to="https://discord.com/"
+            target="_blank"
+            trailing-icon="i-lucide-chevron-right"
+            class="bg-[#ffbb35] text-zinc-900 hover:bg-[#ffbb35] transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-[#ffbb35]/30 rounded px-8 py-3 font-bold text-lg w-full sm:w-auto flex justify-center"
           >
-            Discover the Story
+            Join Discord
           </UButton>
-          <UButton
-            size="xl"
-            color="neutral"
-            variant="outline"
-            to="/contact"
-            aria-label="Get in touch with us"
+          <a 
+            href="https://github.com/twohoursonelife" 
+            target="_blank"
+            class="text-zinc-300 text-sm hover:text-white transition-colors flex items-center justify-center gap-2 mt-2 bg-black/40 rounded-full px-5 py-2 backdrop-blur-sm border border-zinc-700"
           >
-            Get in Touch
-          </UButton>
+            <UIcon name="i-lucide-github" class="w-4 h-4" /> View source code
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- Core Features Section -->
-    <section class="py-16 md:py-24 bg-background" aria-labelledby="features-heading">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto">
-          <h2 id="features-heading" class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-            A Social Experiment of Generational Scale
-          </h2>
-          <p class="mt-4 text-gray-500 dark:text-gray-400">
-            Survival is impossible alone. Only together can we build a civilization from scratch.
+    <section id="about" class="py-20 px-6 max-w-6xl mx-auto bg-zinc-50">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold mb-4 font-heading text-zinc-900">What is 2HOL?</h2>
+        <div class="w-20 h-2 bg-[#ffbb35] mx-auto rounded-full"></div>
+      </div>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6 text-lg text-zinc-700 leading-relaxed font-medium">
+          <p>
+            Two Hours One Life is a free, open-source community fork of the popular game <em>One Hour One Life</em>. 
+          </p>
+          <p>
+            We believe in giving players more time to build, connect, and thrive. By doubling the lifespan of a character to two hours, players can focus on building a lasting community in and outside the game, rather than just rushing through short-lived families.
+          </p>
+          <p>
+            Developed and maintained entirely by volunteers, 2HOL offers unique mechanics, ongoing content updates, and a welcoming community.
           </p>
         </div>
+        <div class="bg-zinc-200 rounded-xl h-80 flex items-center justify-center border-4 border-zinc-100 shadow-xl overflow-hidden relative">
+           <div class="absolute inset-0 bg-zinc-800 opacity-10"></div>
+           <UIcon name="i-lucide-globe" class="w-24 h-24 text-zinc-400" />
+           <div class="absolute bottom-4 left-4 bg-zinc-900/80 text-white px-3 py-1 text-sm rounded backdrop-blur-sm">
+              Game Screenshot Placeholder
+           </div>
+        </div>
+      </div>
+    </section>
 
-        <div class="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          <!-- Feature 1 -->
-          <div class="p-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 flex flex-col gap-4">
-            <div class="w-10 h-10 rounded-lg bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400">
-              <span class="font-bold text-lg" aria-hidden="true">1</span>
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Generational Gameplay</h3>
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              You are born to a real player who acts as your mother. Grow up, learn survival skills, become a parent, and care for your own children.
-            </p>
-          </div>
-
-          <!-- Feature 2 -->
-          <div class="p-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 flex flex-col gap-4">
-            <div class="w-10 h-10 rounded-lg bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400">
-              <span class="font-bold text-lg" aria-hidden="true">2</span>
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Deep Crafting Tree</h3>
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              Go from primitive stone tools to advanced machinery and agriculture. Discover thousands of craftable items in a rich, historical tech tree.
-            </p>
-          </div>
-
-          <!-- Feature 3 -->
-          <div class="p-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 flex flex-col gap-4">
-            <div class="w-10 h-10 rounded-lg bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400">
-              <span class="font-bold text-lg" aria-hidden="true">3</span>
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Cooperative Society</h3>
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              Specialization is key. No single player can do everything. Share resources, trade with neighbors, and work together to prevent starvation.
-            </p>
-          </div>
+    <section id="community" class="py-24 px-6 max-w-4xl mx-auto text-center bg-zinc-100 rounded-3xl mb-12 shadow-sm border border-zinc-200">
+      <h2 class="text-3xl font-bold mb-8 font-heading text-zinc-900">Join the Community</h2>
+      <p class="text-xl text-zinc-600 mb-10 font-medium">
+        Everything happens on our Discord server. It's where you meet other players, get live support, and coordinate town building.
+      </p>
+      
+      <div class="flex flex-col items-center gap-6">
+        <UButton 
+          to="https://discord.com/"
+          target="_blank"
+          class="bg-[#ffbb35] text-zinc-900 hover:bg-[#ffbb35] transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-[#ffbb35]/30 rounded px-10 py-4 font-bold text-xl"
+        >
+          Join Discord
+        </UButton>
+        
+        <div class="flex flex-wrap justify-center gap-4">
+          <UButton 
+            to="https://twohoursonelife.fandom.com/" 
+            target="_blank" 
+            color="white"
+            variant="outline"
+            icon="i-lucide-book-open"
+            class="hover:bg-zinc-50 border-zinc-300 text-zinc-600 font-semibold px-6 py-3 rounded"
+          >
+            Read the Wiki
+          </UButton>
+          <UButton 
+            to="https://opencollective.com/twohoursonelife" 
+            target="_blank" 
+            color="white"
+            variant="outline"
+            icon="i-lucide-heart"
+            class="hover:bg-zinc-50 border-zinc-300 text-zinc-600 font-semibold px-6 py-3 rounded"
+            :ui="{ icon: { base: 'text-red-500' } }"
+          >
+            Support via Open Collective
+          </UButton>
         </div>
       </div>
     </section>
