@@ -1,6 +1,6 @@
 # frontend - https://twohoursonelife.com
 
-A minimal, highly accessible, and SEO-optimized static marketing site scaffold for **Two Hours One Life** built on **Nuxt 4**.
+A minimal and highly accessible static marketing site scaffold for **Two Hours One Life** built on **Nuxt 4**.
 
 ## Tech Stack
 
@@ -8,7 +8,6 @@ A minimal, highly accessible, and SEO-optimized static marketing site scaffold f
 - Nuxt 4 (Vue)
   - Nitro
   - Nuxt UI
-  - Nuxt SEO
 - Fly.io and Cloudflare
 
 ---
@@ -20,7 +19,7 @@ frontend/
 ├── .mise.toml           
 ├── Dockerfile           
 ├── fly.toml             
-├── nuxt.config.ts       # Nuxt configuration (SEO, Modules, Nitro prerender)
+├── nuxt.config.ts       # Nuxt configuration
 └── app/                 # Nuxt 4 Application Source
     ├── app.vue          # Root component wrapped with <UApp>
     ├── layouts/
@@ -78,7 +77,7 @@ To build the application and pre-render all static routes with Nitro:
 ```bash
 bun run build
 ```
-This triggers Nitro's static crawler. Static pages, payloads, sitemaps, and assets will be outputted to `.output/public/`.
+This triggers Nitro's static crawler. Static pages, payloads, and assets will be outputted to `.output/public/`.
 
 ---
 

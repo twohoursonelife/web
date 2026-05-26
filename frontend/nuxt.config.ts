@@ -6,16 +6,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   modules: [
-    '@nuxt/ui',
-    '@nuxtjs/seo'
+    '@nuxt/ui'
   ],
-
-  site: {
-    url: 'https://twohoursonelife.com',
-    name: 'Two Hours One Life',
-    description: 'A multiplayer survival and society building game of generations.',
-    defaultLocale: 'en'
-  },
 
   app: {
     head: {
@@ -26,17 +18,6 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
     }
-  },
-
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: ['/']
-    }
-  },
-
-  ogImage: { 
-    zeroRuntime: true 
   },
 
   vite: {

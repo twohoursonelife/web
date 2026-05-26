@@ -1,11 +1,8 @@
 <script setup lang="ts">
 import { reactive, ref } from 'vue'
 
-useSeoMeta({
-  title: 'Contact - Two Hours One Life',
-  ogTitle: 'Contact - Two Hours One Life',
-  description: 'Have questions, feedback, or want to get involved? Contact the team behind Two Hours One Life.',
-  ogDescription: 'Have questions, feedback, or want to get involved? Contact the team behind Two Hours One Life.'
+useHead({
+  title: 'Contact - Two Hours One Life'
 })
 
 const form = reactive({

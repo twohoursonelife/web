@@ -1,10 +1,6 @@
 <script setup lang="ts">
-useSeoMeta({
-  title: 'Two Hours One Life - Multiplayer Survival & Civilization Building Game',
-  ogTitle: 'Two Hours One Life - Multiplayer Survival & Civilization Building Game',
-  description: 'An online multiplayer survival and society building game. Live for two hours, make every minute a year, cooperate with others, and build a lasting legacy.',
-  ogDescription: 'An online multiplayer survival and society building game. Live for two hours, make every minute a year, cooperate with others, and build a lasting legacy.',
-  ogType: 'website'
+useHead({
+  title: 'Two Hours One Life - Multiplayer Survival & Civilization Building Game'
 })
 </script>
 

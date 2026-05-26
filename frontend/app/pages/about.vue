@@ -1,9 +1,6 @@
 <script setup lang="ts">
-useSeoMeta({
-  title: 'About - Two Hours One Life',
-  ogTitle: 'About - Two Hours One Life',
-  description: 'Learn about the philosophy, mechanisms, and vision behind Two Hours One Life—a multiplayer game of survival, family, and civilization building.',
-  ogDescription: 'Learn about the philosophy, mechanisms, and vision behind Two Hours One Life—a multiplayer game of survival, family, and civilization building.'
+useHead({
+  title: 'About - Two Hours One Life'
 })
 </script>
 
