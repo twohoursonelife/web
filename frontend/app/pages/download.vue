@@ -1,46 +1,36 @@
 <template>
-  <div class="py-20 px-6 max-w-3xl mx-auto min-h-[70vh]">
-    <h2 class="text-4xl font-bold mb-12 font-heading">First Time Installation</h2>
-    
-    <div class="space-y-10">
-      <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-[#ffbb35] text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">1</div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Extract the Files</h3>
-          <p class="text-zinc-700 leading-relaxed font-medium">
-            Once you have downloaded the `.zip` file for Windows, extract the entire folder to a location on your computer (like your Desktop or Documents folder). <strong class="text-zinc-900">Do not</strong> try to run the game from inside the zip file without extracting it first.
-          </p>
-        </div>
-      </div>
+  <div class="py-20 px-6 max-w-4xl mx-auto min-h-[70vh]">
+    <h2 class="text-4xl font-bold mb-4 font-heading">Download 2HOL</h2>
+    <p class="text-xl text-zinc-600 mb-12 font-medium">Select your operating system to download the latest client.</p>
 
-      <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-[#ffbb35] text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">2</div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Run the Game</h3>
-          <p class="text-zinc-700 leading-relaxed font-medium">
-            Open the extracted folder and double-click on `2HOL.exe`. Depending on your Windows settings, you might get a "Windows protected your PC" warning. Click <strong class="text-zinc-900">More info</strong> and then <strong class="text-zinc-900">Run anyway</strong>.
-          </p>
-        </div>
-      </div>
-
-      <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-[#ffbb35] text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">3</div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Account Setup</h3>
-          <p class="text-zinc-700 leading-relaxed font-medium">
-            When you launch the game for the first time, you will be prompted to enter an email address or generate a custom key. Follow the on-screen prompts to register your local account.
-          </p>
-        </div>
+    <div class="grid sm:grid-cols-2 gap-6 mb-12">
+      <div class="border border-zinc-200 p-8 rounded-xl bg-white shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
+        <UIcon name="i-lucide-monitor" class="w-12 h-12 text-[#ffbb35] mb-4" />
+        <h3 class="text-2xl font-bold mb-2 font-heading text-zinc-900">Windows</h3>
+        <p class="text-zinc-500 mb-6 font-medium">Windows 10 / 11 (64-bit)</p>
+        <UButton color="black" class="w-full justify-center py-3 rounded font-bold hover:bg-zinc-800 transition-colors">
+          Download for Windows
+        </UButton>
       </div>
       
-      <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-[#ffbb35] text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">4</div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Connect to the Server</h3>
-          <p class="text-zinc-700 leading-relaxed font-medium">
-            The game comes pre-configured with the official 2HOL server. Simply click "Login" on the main menu, and you will be placed into the tutorial or directly into the world!
-          </p>
-        </div>
+      <div class="border border-zinc-200 p-8 rounded-xl bg-white shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
+        <UIcon name="i-lucide-github" class="w-12 h-12 text-zinc-400 mb-4" />
+        <h3 class="text-2xl font-bold mb-2 font-heading text-zinc-900">Linux / Mac</h3>
+        <p class="text-zinc-500 mb-6 font-medium">Build from source</p>
+        <UButton color="white" to="https://github.com/twohoursonelife" target="_blank" class="w-full justify-center py-3 rounded font-bold border-zinc-300 hover:bg-zinc-100 transition-colors">
+          View Repository
+        </UButton>
+      </div>
+    </div>
+
+    <div class="bg-zinc-100 border border-zinc-200 p-6 rounded-xl flex flex-col sm:flex-row items-start gap-4">
+      <UIcon name="i-lucide-info" class="text-zinc-500 flex-shrink-0 mt-1 w-6 h-6" />
+      <div>
+        <h4 class="font-bold text-lg mb-1 font-heading text-zinc-900">Need help setting up?</h4>
+        <p class="text-zinc-700 mb-3 font-medium">If this is your first time playing, check out our installation guide to get up and running smoothly.</p>
+        <NuxtLink to="/install" class="text-zinc-900 font-bold underline hover:text-[#ffbb35] transition-colors">
+          View Install Instructions
+        </NuxtLink>
       </div>
     </div>
   </div>
