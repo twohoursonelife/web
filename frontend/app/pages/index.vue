@@ -19,7 +19,7 @@
             to="https://discord.com/"
             target="_blank"
             trailing-icon="i-lucide-chevron-right"
-            class="bg-[#ffbb35] text-zinc-900 hover:bg-[#ffbb35] transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-[#ffbb35]/30 rounded px-8 py-3 font-bold text-lg w-full sm:w-auto flex justify-center"
+            class="bg-[#ffbb35] text-zinc-900 hover:bg-[#ffbb35] transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-[#ffbb35]/30 rounded-none px-8 py-3 font-bold text-lg w-full sm:w-auto flex justify-center"
           >
             Join Discord
           </UButton>
@@ -71,7 +71,7 @@
         <UButton 
           to="https://discord.com/"
           target="_blank"
-          class="bg-[#ffbb35] text-zinc-900 hover:bg-[#ffbb35] transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-[#ffbb35]/30 rounded px-10 py-4 font-bold text-xl"
+          class="bg-[#ffbb35] text-zinc-900 hover:bg-[#ffbb35] transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-[#ffbb35]/30 rounded-none px-10 py-4 font-bold text-xl"
         >
           Join Discord
         </UButton>
