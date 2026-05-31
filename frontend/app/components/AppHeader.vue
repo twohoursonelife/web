@@ -32,7 +32,7 @@ watch(() => route.fullPath, () => {
       </div>
 
       <div class="md:hidden">
-        <UButton color="white" variant="ghost" :icon="isMobileMenuOpen ? 'i-lucide-x' : 'i-lucide-menu'" @click="isMobileMenuOpen = !isMobileMenuOpen" class="hover:text-brand-500" />
+        <UButton variant="ghost" :icon="isMobileMenuOpen ? 'i-lucide-x' : 'i-lucide-menu'" @click="isMobileMenuOpen = !isMobileMenuOpen" class="hover:text-brand-500" />
       </div>
     </div>
     

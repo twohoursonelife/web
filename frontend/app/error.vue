@@ -15,7 +15,7 @@ const handleBack = () => useRouter().back()
 
 <template>
   <div class="min-h-screen bg-zinc-50 text-zinc-900 flex flex-col font-body">
-    <Header />
+    <AppHeader />
 
     <main class="grow flex items-center justify-center px-6 py-16">
       <div class="max-w-md w-full text-center space-y-8">
@@ -60,6 +60,6 @@ const handleBack = () => useRouter().back()
       </div>
     </main>
 
-    <Footer />
+    <AppFooter />
   </div>
 </template>
