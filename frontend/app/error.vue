@@ -45,14 +45,14 @@ const handleBack = () => useRouter().back()
             @click="handleBack"
             variant="outline"
             icon="i-lucide-arrow-left"
-            class="hover:bg-zinc-100 border-zinc-300 text-zinc-600 font-semibold px-6 py-3 rounded-none w-full sm:w-auto flex justify-center gap-2"
+            class="w-full sm:w-auto"
           >
             Go Back
           </UButton>
           <UButton
             @click="handleError"
             icon="i-lucide-home"
-            class="bg-brand-500 text-zinc-900 hover:bg-brand-600 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-brand-500/20 rounded-none px-6 py-3 font-bold flex justify-center gap-2 w-full sm:w-auto"
+            class="w-full sm:w-auto"
           >
             Go Home
           </UButton>

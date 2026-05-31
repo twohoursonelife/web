@@ -19,7 +19,8 @@
             to="https://discord.gg/Jd9Es3f"
             target="_blank"
             trailing-icon="i-lucide-chevron-right"
-            class="bg-brand-500 text-zinc-900 hover:bg-brand-600 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-brand-500/30 rounded-none px-8 py-3 font-bold text-lg w-full sm:w-auto flex justify-center"
+            size="lg"
+            class="w-full sm:w-auto"
           >
             Join Discord
           </UButton>
@@ -71,7 +72,7 @@
         <UButton 
           to="https://discord.gg/Jd9Es3f"
           target="_blank"
-          class="bg-brand-500 text-zinc-900 hover:bg-brand-600 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-brand-500/30 rounded-none px-10 py-4 font-bold text-xl"
+          size="lg"
         >
           Join Discord
         </UButton>
@@ -82,7 +83,6 @@
             target="_blank"
             variant="outline"
             icon="i-lucide-book-open"
-            class="hover:bg-zinc-50 border-zinc-300 text-zinc-600 font-semibold px-6 py-3 rounded"
           >
             Read the Wiki
           </UButton>
@@ -91,7 +91,6 @@
             target="_blank" 
             variant="outline"
             icon="i-lucide-heart"
-            class="hover:bg-zinc-50 border-zinc-300 text-zinc-600 font-semibold px-6 py-3 rounded"
           >
             Support via Open Collective
           </UButton>

@@ -7,7 +7,7 @@ A minimal and highly accessible static marketing site scaffold for **Two Hours O
 - `mise`, `just` and `bun`
 - Nuxt 4 (Vue)
   - Nitro
-  - Nuxt UI
+  - Nuxt UI v4
 - Fly.io and Cloudflare
 
 ---

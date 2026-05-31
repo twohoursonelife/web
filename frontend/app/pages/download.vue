@@ -8,7 +8,7 @@
         <UIcon name="i-lucide-monitor" class="w-12 h-12 text-brand-500 mb-4" />
         <h3 class="text-2xl font-bold mb-2 font-heading text-zinc-900">Windows</h3>
         <p class="text-zinc-500 mb-6 font-medium">Windows 10 / 11 (64-bit)</p>
-        <UButton class="w-full justify-center py-3 rounded font-bold hover:bg-zinc-800 transition-colors">
+        <UButton class="w-full">
           Download for Windows
         </UButton>
       </div>
@@ -17,7 +17,7 @@
         <UIcon name="i-lucide-github" class="w-12 h-12 text-zinc-400 mb-4" />
         <h3 class="text-2xl font-bold mb-2 font-heading text-zinc-900">Linux / Mac</h3>
         <p class="text-zinc-500 mb-6 font-medium">Build from source</p>
-        <UButton to="https://github.com/twohoursonelife" target="_blank" class="w-full justify-center py-3 rounded font-bold border-zinc-300 hover:bg-zinc-100 transition-colors">
+        <UButton to="https://github.com/twohoursonelife" target="_blank" variant="outline" class="w-full">
           View Repository
         </UButton>
       </div>

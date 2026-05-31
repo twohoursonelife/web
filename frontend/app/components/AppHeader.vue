@@ -25,7 +25,6 @@ watch(() => route.fullPath, () => {
         <NuxtLink v-for="link in links" :key="link.to" :to="link.to" class="hover:text-brand-500 transition-colors">{{ link.label }}</NuxtLink>
         <UButton 
           to="/download"
-          class="bg-brand-500 text-zinc-900 hover:bg-brand-600 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-brand-500/20 rounded-none px-6 py-2 font-bold flex items-center gap-2"
         >
           Play Now
         </UButton>
@@ -40,7 +39,7 @@ watch(() => route.fullPath, () => {
       <NuxtLink v-for="link in links" :key="link.to" :to="link.to" class="block pb-2 border-b border-zinc-700 hover:text-brand-500">{{ link.label }}</NuxtLink>
       <UButton 
         to="/download"
-        class="bg-brand-500 text-zinc-900 hover:bg-brand-600 transition-all hover:scale-[1.02] active:scale-95 shadow-lg shadow-brand-500/20 rounded-none py-3 font-bold flex items-center justify-center gap-2 w-full mt-2"
+        class="w-full mt-2"
       >
         Play Now
       </UButton>
