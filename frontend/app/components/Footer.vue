@@ -5,7 +5,7 @@
         <img src="/icon.png" alt="2HOL Icon" class="w-10 h-10 object-contain grayscale opacity-50 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100" />
       </NuxtLink>
       <p class="text-sm">
-        © {{ new Date().getFullYear() }} Two Hours One Life. An open-source project.
+        © {{ new Date().getFullYear() }} Two Hours One Life.
       </p>
       <div class="flex gap-4 font-medium">
         <a href="https://github.com/twohoursonelife" target="_blank" class="hover:text-white transition-colors">GitHub</a>
