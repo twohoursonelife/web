@@ -1,5 +1,19 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
-.font-heading { font-family: 'Montserrat', sans-serif; }
-.font-body { font-family: 'Quicksand', sans-serif; }
+@theme {
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Quicksand", sans-serif;
+
+  --color-brand-50: #fff8eb;
+  --color-brand-100: #fff1d7;
+  --color-brand-200: #ffe4ae;
+  --color-brand-300: #ffd686;
+  --color-brand-400: #ffc95d;
+  --color-brand-500: #ffbb35;
+  --color-brand-600: #cc962a;
+  --color-brand-700: #997020;
+  --color-brand-800: #664b15;
+  --color-brand-900: #33250b;
+  --color-brand-950: #1a1305;
+}

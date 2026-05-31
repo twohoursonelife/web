@@ -5,7 +5,7 @@
 
     <div class="grid sm:grid-cols-2 gap-6 mb-12">
       <div class="border border-zinc-200 p-8 rounded-xl bg-white shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
-        <UIcon name="i-lucide-monitor" class="w-12 h-12 text-[#ffbb35] mb-4" />
+        <UIcon name="i-lucide-monitor" class="w-12 h-12 text-brand-500 mb-4" />
         <h3 class="text-2xl font-bold mb-2 font-heading text-zinc-900">Windows</h3>
         <p class="text-zinc-500 mb-6 font-medium">Windows 10 / 11 (64-bit)</p>
         <UButton color="black" class="w-full justify-center py-3 rounded font-bold hover:bg-zinc-800 transition-colors">
@@ -28,7 +28,7 @@
       <div>
         <h4 class="font-bold text-lg mb-1 font-heading text-zinc-900">Need help setting up?</h4>
         <p class="text-zinc-700 mb-3 font-medium">If this is your first time playing, check out our installation guide to get up and running smoothly.</p>
-        <NuxtLink to="/install" class="text-zinc-900 font-bold underline hover:text-[#ffbb35] transition-colors">
+        <NuxtLink to="/install" class="text-zinc-900 font-bold underline hover:text-brand-500 transition-colors">
           View Install Instructions
         </NuxtLink>
       </div>

@@ -4,7 +4,7 @@
     
     <div class="space-y-10">
       <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-[#ffbb35] text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">1</div>
+        <div class="w-10 h-10 rounded-full bg-brand-500 text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">1</div>
         <div>
           <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Extract the Files</h3>
           <p class="text-zinc-700 leading-relaxed font-medium">
@@ -14,7 +14,7 @@
       </div>
 
       <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-[#ffbb35] text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">2</div>
+        <div class="w-10 h-10 rounded-full bg-brand-500 text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">2</div>
         <div>
           <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Run the Game</h3>
           <p class="text-zinc-700 leading-relaxed font-medium">
@@ -24,7 +24,7 @@
       </div>
 
       <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-[#ffbb35] text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">3</div>
+        <div class="w-10 h-10 rounded-full bg-brand-500 text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">3</div>
         <div>
           <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Account Setup</h3>
           <p class="text-zinc-700 leading-relaxed font-medium">
@@ -34,7 +34,7 @@
       </div>
       
       <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-[#ffbb35] text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">4</div>
+        <div class="w-10 h-10 rounded-full bg-brand-500 text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">4</div>
         <div>
           <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Connect to the Server</h3>
           <p class="text-zinc-700 leading-relaxed font-medium">

@@ -8,7 +8,7 @@
       
       <div class="relative z-10 max-w-5xl mx-auto text-center space-y-8">
         <h1 class="text-5xl md:text-6xl font-extrabold leading-tight font-heading drop-shadow-lg">
-          Two Hours <span class="text-[#ffbb35]">One Life</span>
+          Two Hours <span class="text-brand-500">One Life</span>
         </h1>
         <p class="text-xl md:text-2xl text-zinc-200 max-w-2xl mx-auto font-medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas ornare tincidunt. Proin magna tellus, elementum vel sem at, viverra placerat leo.
@@ -19,7 +19,7 @@
             to="https://discord.gg/Jd9Es3f"
             target="_blank"
             trailing-icon="i-lucide-chevron-right"
-            class="bg-[#ffbb35] text-zinc-900 hover:bg-[#ffbb35] transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-[#ffbb35]/30 rounded-none px-8 py-3 font-bold text-lg w-full sm:w-auto flex justify-center"
+            class="bg-brand-500 text-zinc-900 hover:bg-brand-600 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-brand-500/30 rounded-none px-8 py-3 font-bold text-lg w-full sm:w-auto flex justify-center"
           >
             Join Discord
           </UButton>
@@ -37,7 +37,7 @@
     <section id="about" class="py-20 px-6 max-w-6xl mx-auto bg-zinc-50">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold mb-4 font-heading text-zinc-900">What is 2HOL?</h2>
-        <div class="w-20 h-2 bg-[#ffbb35] mx-auto rounded-full"></div>
+        <div class="w-20 h-2 bg-brand-500 mx-auto rounded-full"></div>
       </div>
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div class="space-y-6 text-lg text-zinc-700 leading-relaxed font-medium">
@@ -71,7 +71,7 @@
         <UButton 
           to="https://discord.gg/Jd9Es3f"
           target="_blank"
-          class="bg-[#ffbb35] text-zinc-900 hover:bg-[#ffbb35] transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-[#ffbb35]/30 rounded-none px-10 py-4 font-bold text-xl"
+          class="bg-brand-500 text-zinc-900 hover:bg-brand-600 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-brand-500/30 rounded-none px-10 py-4 font-bold text-xl"
         >
           Join Discord
         </UButton>
