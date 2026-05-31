@@ -16,7 +16,7 @@
         
         <div class="flex flex-col items-center gap-4 pt-4">
           <UButton 
-            to="https://discord.com/"
+            to="https://discord.gg/Jd9Es3f"
             target="_blank"
             trailing-icon="i-lucide-chevron-right"
             class="bg-[#ffbb35] text-zinc-900 hover:bg-[#ffbb35] transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-[#ffbb35]/30 rounded-none px-8 py-3 font-bold text-lg w-full sm:w-auto flex justify-center"
@@ -69,7 +69,7 @@
       
       <div class="flex flex-col items-center gap-6">
         <UButton 
-          to="https://discord.com/"
+          to="https://discord.gg/Jd9Es3f"
           target="_blank"
           class="bg-[#ffbb35] text-zinc-900 hover:bg-[#ffbb35] transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-[#ffbb35]/30 rounded-none px-10 py-4 font-bold text-xl"
         >

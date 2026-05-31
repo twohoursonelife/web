@@ -62,7 +62,7 @@ watch(() => route.fullPath, () => {
         </p>
         <div class="flex gap-4 font-medium">
           <a href="https://github.com/twohoursonelife" target="_blank" class="hover:text-white transition-colors">GitHub</a>
-          <a href="https://discord.com/" target="_blank" class="hover:text-white transition-colors">Discord</a>
+          <a href="https://discord.gg/Jd9Es3f" target="_blank" class="hover:text-white transition-colors">Discord</a>
         </div>
       </div>
     </footer>
