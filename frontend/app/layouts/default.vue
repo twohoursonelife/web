@@ -19,7 +19,7 @@ watch(() => route.fullPath, () => {
     <header class="bg-zinc-900 text-white py-4 px-6 sticky top-0 z-50 shadow-md">
       <div class="max-w-6xl mx-auto flex justify-between items-center">
         <NuxtLink to="/" class="hover:opacity-80 transition-opacity">
-          <img src="https://twohoursonelife.com/wp-content/uploads/2023/07/logo.webp" alt="2HOL" class="h-8 object-contain" />
+          <img src="/logo.png" alt="2HOL" class="h-8 object-contain" />
         </NuxtLink>
         
         <div class="hidden md:flex items-center space-x-6 font-medium">
@@ -55,7 +55,7 @@ watch(() => route.fullPath, () => {
     <footer class="bg-zinc-900 text-zinc-400 py-12 px-6 border-t border-zinc-800 text-center">
       <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <NuxtLink to="/" class="group">
-          <img src="https://twohoursonelife.com/wp-content/uploads/2023/07/icon.webp" alt="2HOL Icon" class="w-10 h-10 object-contain grayscale opacity-50 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100" />
+          <img src="/icon.png" alt="2HOL Icon" class="w-10 h-10 object-contain grayscale opacity-50 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100" />
         </NuxtLink>
         <p class="text-sm">
           © {{ new Date().getFullYear() }} Two Hours One Life. An open-source project.

@@ -2,7 +2,7 @@
   <div>
     <section class="relative bg-zinc-900 text-white pt-16 pb-24 px-6 border-t border-zinc-800 overflow-hidden">
       <div class="absolute inset-0 z-0">
-        <img src="https://twohoursonelife.com/wp-content/uploads/2019/06/3.png" class="w-full h-full object-cover" alt="Hero Background" />
+        <img src="/background.jpg" class="w-full h-full object-cover" alt="Hero Background" />
         <div class="absolute inset-0 bg-zinc-900/70"></div>
       </div>
       
