@@ -79,8 +79,7 @@
         <div class="flex flex-wrap justify-center gap-4">
           <UButton 
             to="https://twohoursonelife.fandom.com/" 
-            target="_blank" 
-            color="white"
+            target="_blank"
             variant="outline"
             icon="i-lucide-book-open"
             class="hover:bg-zinc-50 border-zinc-300 text-zinc-600 font-semibold px-6 py-3 rounded"
@@ -90,11 +89,9 @@
           <UButton 
             to="https://opencollective.com/twohoursonelife" 
             target="_blank" 
-            color="white"
             variant="outline"
             icon="i-lucide-heart"
             class="hover:bg-zinc-50 border-zinc-300 text-zinc-600 font-semibold px-6 py-3 rounded"
-            :ui="{ icon: { base: 'text-red-500' } }"
           >
             Support via Open Collective
           </UButton>
