@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
@@ -6,8 +5,13 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   modules: [
-    '@nuxt/ui'
+    '@nuxt/ui',
+    'nuxt-gtag'
   ],
+
+  gtag: {
+    id: '' // Add your Google Analytics G-XXXXXXXXXX ID here, or set NUXT_PUBLIC_GTAG_ID env variable
+  },
 
   app: {
     head: {

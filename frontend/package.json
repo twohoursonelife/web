@@ -13,5 +13,8 @@
     "@nuxt/ui": "^4.8.0",
     "nuxt": "^4.4.6",
     "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "nuxt-gtag": "^4.1.0"
   }
 }
