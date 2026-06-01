@@ -16,13 +16,12 @@
         
         <div class="flex flex-col items-center gap-4 pt-4">
           <UButton 
-            to="https://discord.gg/Jd9Es3f"
-            target="_blank"
+            to="/first-time-playing"
             trailing-icon="i-lucide-chevron-right"
             size="lg"
             class="w-full sm:w-auto"
           >
-            Join Discord
+            Play now
           </UButton>
           <a 
             href="https://github.com/twohoursonelife" 
@@ -70,11 +69,10 @@
       
       <div class="flex flex-col items-center gap-6">
         <UButton 
-          to="https://discord.gg/Jd9Es3f"
-          target="_blank"
+          to="/first-time-playing"
           size="lg"
         >
-          Join Discord
+          Play now
         </UButton>
         
         <div class="flex flex-wrap justify-center gap-4">

@@ -1,6 +1,6 @@
 # frontend - https://twohoursonelife.com
 
-A minimal and highly accessible static marketing site scaffold for **Two Hours One Life** built on **Nuxt 4**.
+A minimal static site for **Two Hours One Life** built on **Nuxt 4**.
 
 ## Tech Stack
 
@@ -8,27 +8,7 @@ A minimal and highly accessible static marketing site scaffold for **Two Hours O
 - Nuxt 4 (Vue)
   - Nitro
   - Nuxt UI v4
-- Fly.io and Cloudflare
-
----
-
-## Directory Structure (Nuxt 4 layout)
-
-```text
-frontend/
-├── .mise.toml           
-├── Dockerfile           
-├── fly.toml             
-├── nuxt.config.ts       # Nuxt configuration
-└── app/                 # Nuxt 4 Application Source
-    ├── app.vue          # Root component wrapped with <UApp>
-    ├── layouts/
-    │   └── default.vue  # Main accessible layout shell with dark mode & skip links
-    └── pages/           # Pre-rendered static pages
-        ├── index.vue    # Landing/Hero page
-        ├── about.vue    # philosophy, history, rules
-        └── contact.vue  # Accessible contact form with validation
-```
+- GitHub pages
 
 ---
 

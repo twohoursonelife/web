@@ -9,9 +9,9 @@ bootstrap:
 dev:
     bun run dev
 
-# Build and prerender for production
+# Build and prerender for production (SSG)
 build:
-    bun run build
+    bun run generate
 
 # Preview the production build locally
 preview:

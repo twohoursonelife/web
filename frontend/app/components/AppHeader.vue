@@ -5,7 +5,9 @@ const route = useRoute()
 const isMobileMenuOpen = ref(false)
 const links = [
   { label: 'Download', to: '/download' },
-  { label: 'Instructions', to: '/install' }
+  { label: 'First', to: '/first-time-playing' },
+  { label: 'Twotech', to: 'https://twotech.twohoursonelife.com/' },
+  { label: 'Discord', to: 'https://discord.gg/Jd9Es3f' },
 ]
 
 // Auto-close mobile menu on route change
