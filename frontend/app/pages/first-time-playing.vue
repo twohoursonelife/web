@@ -38,7 +38,7 @@ useSeoMeta({
                 to="https://discord.gg/Jd9Es3f"
                 target="_blank"
                 size="md"
-                class="bg-brand-500 hover:bg-brand-600 !text-zinc-900 font-bold rounded-none shadow-none"
+                
               >
                 Join Discord
               </UButton>
@@ -71,7 +71,6 @@ useSeoMeta({
                 </div>
                 <UButton
                   to="/download"
-                  class="w-full justify-center rounded-none py-2 font-bold shadow-none bg-brand-500 hover:bg-brand-600 !text-zinc-900 border border-transparent"
                   icon="i-lucide-download"
                 >
                   Download for Windows
@@ -90,7 +89,6 @@ useSeoMeta({
                   to="/download"
                   target="_blank"
                   variant="outline"
-                  class="w-full justify-center rounded-none py-2 font-bold shadow-none border-zinc-300 hover:bg-zinc-200"
                   icon="i-lucide-download"
                 >
                   Download for Linux
@@ -157,7 +155,7 @@ useSeoMeta({
               <li class="flex items-start gap-3">
                 <UIcon name="i-lucide-check-square" class="w-4 h-4 text-brand-600 shrink-0 mt-1" />
                 <span class="text-zinc-700 text-sm font-medium">
-                  <strong>Credentials:</strong> Copy-and-paste your login details from the 2HOL Dictator bot from the Discord. Then click ‘PLAY’ to start playing!
+                  <strong>Credentials:</strong> Copy-and-paste your login details from the 2HOL Dictator bot from the Discord. Then click 'PLAY' to start playing!
                 </span>
               </li>
               <li class="flex items-start gap-3">
@@ -188,14 +186,13 @@ useSeoMeta({
       <div class="bg-zinc-100 border border-zinc-200 rounded-none p-8 text-center space-y-4 shadow-sm">
         <h3 class="text-lg font-bold font-heading text-zinc-900">After your first time</h3>
         <p class="text-zinc-600 text-sm max-w-xl mx-auto font-medium leading-relaxed">
-          Take your time to start learning the game in each life, but don’t forget to explore our Discord. There are thousands of welcoming people willing to help you find your way and learn. As you play more, you’ll be able to access new roles, which will unlock more channels for you to contribute and connect with the community.
+          Take your time to start learning the game in each life, but don't forget to explore our Discord. There are thousands of welcoming people willing to help you find your way and learn. As you play more, you'll be able to access new roles, which will unlock more channels for you to contribute and connect with the community.
         </p>
         <div class="pt-1">
           <UButton
             to="https://discord.gg/Jd9Es3f"
             target="_blank"
             size="md"
-            class="bg-brand-500 hover:bg-brand-600 font-bold rounded-none shadow-none"
           >
             Join Discord
           </UButton>

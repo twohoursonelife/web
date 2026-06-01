@@ -71,7 +71,7 @@ useSeoMeta({
       </p>
       
       <p class="text-zinc-600 mb-10 font-medium max-w-xl mx-auto text-sm md:text-base leading-relaxed">
-        We’re committed to never putting you in a position where you’re pressured to pay for benefit or advancements in the game. Any amount of support, monetary or not, is greatly appreciated and will go directly into the game.
+        We’re committed to never putting you in a position where you're pressured to pay for benefit or advancements in the game. Any amount of support, monetary or not, is greatly appreciated and will go directly into the game.
       </p>
       
       <div class="flex flex-col items-center gap-6">
@@ -79,7 +79,6 @@ useSeoMeta({
           <UButton 
             to="/first-time-playing"
             size="lg"
-            class="bg-brand-500 hover:bg-brand-600 !text-zinc-900 font-bold rounded-none shadow-none border border-transparent"
           >
             Play Now
           </UButton>
