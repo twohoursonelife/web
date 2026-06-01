@@ -22,7 +22,7 @@ useSeoMeta({
         <p class="text-zinc-600 text-sm md:text-base font-medium pt-2">
           Need an account? Join our 
           <a 
-            href="https://discord.com/invite/GNg3JUX" 
+            href="https://discord.gg/Jd9Es3f" 
             target="_blank" 
             class="text-brand-700 font-bold underline hover:text-brand-600 transition-colors"
           >

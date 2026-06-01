@@ -4,6 +4,7 @@ import { ref, watch } from 'vue'
 const route = useRoute()
 const isMobileMenuOpen = ref(false)
 const links = [
+  { label: 'Wiki', to: 'https://twohoursonelife.fandom.com/' },
   { label: 'Twotech', to: 'https://twotech.twohoursonelife.com/' },
   { label: 'Discord', to: 'https://discord.gg/Jd9Es3f' },
 ]
