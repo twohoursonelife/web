@@ -1,4 +1,15 @@
 export default defineAppConfig({
+  downloads: {
+    version: '20326',
+    windows: {
+      link: 'https://github.com/twohoursonelife/OneLife/releases/download/2HOL_v20326/2HOL_win_v20326.zip',
+      mirror: 'https://web.twohoursonelife.com/downloads/2HOL_win_v20326.zip'
+    },
+    linux: {
+      link: 'https://github.com/twohoursonelife/OneLife/releases/download/2HOL_v20326/2HOL_linux_v20326.zip',
+      mirror: 'https://web.twohoursonelife.com/downloads/2HOL_linux_v20326.zip'
+    }
+  },
   ui: {
     colors: {
       primary: 'brand',

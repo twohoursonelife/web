@@ -81,7 +81,7 @@ useSeoMeta({
               <div class="border border-zinc-200 rounded-none p-5 bg-zinc-50 flex flex-col justify-between space-y-3">
                 <div class="space-y-1">
                   <div class="flex items-center gap-2">
-                    <UIcon name="i-lucide-monitor" class="w-5 h-5 text-zinc-600" />
+                    <UIcon name="i-lucide-terminal" class="w-5 h-5 text-zinc-600" />
                     <h3 class="font-bold font-heading text-sm text-zinc-900">Linux</h3>
                   </div>
                   <p class="text-zinc-500 text-xs font-medium">Linux build via download page</p>

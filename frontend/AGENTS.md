@@ -7,5 +7,6 @@ Refer to these instructions for avoiding mistakes when working here:
 - Do not insert unnecessary sectional comments
 - Generalise styling when possible so that it can be reused as Nuxt intends
   - Avoid hard coded styling hacks
-- Avoid using `just build` after each small iteration
+  - Never duplicate styling already set by `app.config.ts`
+- Do not use `just build` after each iteration
   - It takes too long, instead use it sparingly according to your judgement
