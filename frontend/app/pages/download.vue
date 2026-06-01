@@ -27,9 +27,9 @@
       <UIcon name="i-lucide-info" class="text-zinc-500 shrink-0 mt-1 w-6 h-6" />
       <div>
         <h4 class="font-bold text-lg mb-1 font-heading text-zinc-900">Need help setting up?</h4>
-        <p class="text-zinc-700 mb-3 font-medium">If this is your first time playing, check out our installation guide to get up and running smoothly.</p>
-        <NuxtLink to="/install" class="text-zinc-900 font-bold underline hover:text-brand-500 transition-colors">
-          View Install Instructions
+        <p class="text-zinc-700 mb-3 font-medium">If this is your first time playing, check out our step-by-step guide to get up and running smoothly.</p>
+        <NuxtLink to="/first-time-playing" class="text-zinc-900 font-bold underline hover:text-brand-500 transition-colors">
+          View First-Time Playing Guide
         </NuxtLink>
       </div>
     </div>

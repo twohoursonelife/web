@@ -1,47 +1,207 @@
+<script setup lang="ts">
+useSeoMeta({
+  title: 'First Time Playing Guide | Two Hours One Life',
+  description: 'Learn how to play Two Hours One Life for the first time. Join our Discord to get your account, download the client, extract the files, and log in.',
+})
+</script>
+
 <template>
-  <div class="py-20 px-6 max-w-3xl mx-auto min-h-[70vh]">
-    <h2 class="text-4xl font-bold mb-12 font-heading">First Time Installation</h2>
-    
-    <div class="space-y-10">
-      <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-brand-500 text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">1</div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Extract the Files</h3>
-          <p class="text-zinc-700 leading-relaxed font-medium">
-            Once you have downloaded the `.zip` file for Windows, extract the entire folder to a location on your computer (like your Desktop or Documents folder). <strong class="text-zinc-900">Do not</strong> try to run the game from inside the zip file without extracting it first.
-          </p>
-        </div>
-      </div>
-
-      <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-brand-500 text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">2</div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Run the Game</h3>
-          <p class="text-zinc-700 leading-relaxed font-medium">
-            Open the extracted folder and double-click on `2HOL.exe`. Depending on your Windows settings, you might get a "Windows protected your PC" warning. Click <strong class="text-zinc-900">More info</strong> and then <strong class="text-zinc-900">Run anyway</strong>.
-          </p>
-        </div>
-      </div>
-
-      <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-brand-500 text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">3</div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Account Setup</h3>
-          <p class="text-zinc-700 leading-relaxed font-medium">
-            When you launch the game for the first time, you will be prompted to enter an email address or generate a custom key. Follow the on-screen prompts to register your local account.
-          </p>
-        </div>
-      </div>
+  <div class="min-h-screen bg-zinc-50 py-16 px-6 font-body text-zinc-900">
+    <div class="max-w-4xl mx-auto space-y-12">
       
-      <div class="flex gap-6">
-        <div class="w-10 h-10 rounded-full bg-brand-500 text-zinc-900 font-bold flex items-center justify-center flex-shrink-0 font-heading text-lg">4</div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 font-heading text-zinc-900">Connect to the Server</h3>
-          <p class="text-zinc-700 leading-relaxed font-medium">
-            The game comes pre-configured with the official 2HOL server. Simply click "Login" on the main menu, and you will be placed into the tutorial or directly into the world!
-          </p>
+      <div class="text-center space-y-3 pt-6">
+        <h1 class="text-3xl md:text-4xl font-extrabold font-heading text-zinc-900 tracking-tight">
+          Playing Two Hours One Life for the First Time
+        </h1>
+        <p class="text-zinc-600 text-base md:text-lg max-w-xl mx-auto font-medium leading-relaxed">
+          Follow these simple steps to set up your account, download the game client, and start playing.
+        </p>
+      </div>
+
+      <div class="space-y-6">
+        
+        <section class="bg-white border border-zinc-200 rounded-none p-8 shadow-sm hover:border-zinc-300 transition-colors flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-10 h-10 rounded-none bg-brand-50 text-brand-700 border border-brand-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
+            1
+          </div>
+          <div class="space-y-4 flex-1">
+            <div class="space-y-1.5">
+              <h2 class="text-xl font-bold font-heading text-zinc-900 tracking-tight">
+                Join the Discord to Get an Account
+              </h2>
+              <p class="text-zinc-600 text-sm md:text-base leading-relaxed font-medium">
+                Join our Discord, accept the rules, and then our 2HOL Dictator bot will create an account for you and send you the information in a message. Can’t find the message? Type “/account” in the Discord and the bot will provide you the details again.
+              </p>
+            </div>
+            <div class="pt-1">
+              <UButton
+                to="https://discord.gg/Jd9Es3f"
+                target="_blank"
+                size="md"
+                class="bg-brand-500 hover:bg-brand-600 !text-zinc-900 font-bold rounded-none shadow-none"
+              >
+                Join Discord
+              </UButton>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-white border border-zinc-200 rounded-none p-8 shadow-sm hover:border-zinc-300 transition-colors flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-10 h-10 rounded-none bg-brand-50 text-brand-700 border border-brand-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
+            2
+          </div>
+          <div class="space-y-5 flex-1 w-full">
+            <div class="space-y-1.5">
+              <h2 class="text-xl font-bold font-heading text-zinc-900 tracking-tight">
+                Download the Game Client
+              </h2>
+              <p class="text-zinc-600 text-sm md:text-base leading-relaxed font-medium">
+                Download for Windows or Linux on our download page. You will download a .zip file that you need to extract to play the game.
+              </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-4 w-full">
+              <div class="border border-zinc-200 rounded-none p-5 bg-zinc-50 flex flex-col justify-between space-y-3">
+                <div class="space-y-1">
+                  <div class="flex items-center gap-2">
+                    <UIcon name="i-lucide-monitor" class="w-5 h-5 text-zinc-600" />
+                    <h3 class="font-bold font-heading text-sm text-zinc-900">Windows</h3>
+                  </div>
+                  <p class="text-zinc-500 text-xs font-medium">Windows build via download page</p>
+                </div>
+                <UButton
+                  to="/download"
+                  class="w-full justify-center rounded-none py-2 font-bold shadow-none bg-brand-500 hover:bg-brand-600 !text-zinc-900 border border-transparent"
+                  icon="i-lucide-download"
+                >
+                  Download for Windows
+                </UButton>
+              </div>
+
+              <div class="border border-zinc-200 rounded-none p-5 bg-zinc-50 flex flex-col justify-between space-y-3">
+                <div class="space-y-1">
+                  <div class="flex items-center gap-2">
+                    <UIcon name="i-lucide-monitor" class="w-5 h-5 text-zinc-600" />
+                    <h3 class="font-bold font-heading text-sm text-zinc-900">Linux</h3>
+                  </div>
+                  <p class="text-zinc-500 text-xs font-medium">Linux build via download page</p>
+                </div>
+                <UButton
+                  to="/download"
+                  target="_blank"
+                  variant="outline"
+                  class="w-full justify-center rounded-none py-2 font-bold shadow-none border-zinc-300 hover:bg-zinc-200"
+                  icon="i-lucide-download"
+                >
+                  Download for Linux
+                </UButton>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-white border border-zinc-200 rounded-none p-8 shadow-sm hover:border-zinc-300 transition-colors flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-10 h-10 rounded-none bg-brand-50 text-brand-700 border border-brand-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
+            3
+          </div>
+          <div class="space-y-4 flex-1">
+            <div class="space-y-1.5">
+              <h2 class="text-xl font-bold font-heading text-zinc-900 tracking-tight">
+                Extract the Game Files
+              </h2>
+              <p class="text-zinc-600 text-sm md:text-base leading-relaxed font-medium">
+                Install the game by extracting the files from the .zip file you just downloaded. Do not move files out of the folder that is created when you extract. All the files are needed to run the game. When extracting is finished, you can move the folder to your Documents.
+              </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-4 pt-2">
+              <div class="bg-zinc-100 border border-zinc-200 rounded-none p-5 flex gap-3 items-start">
+                <UIcon name="i-lucide-monitor" class="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
+                <div class="space-y-1">
+                  <h4 class="font-bold text-zinc-900 text-sm font-heading">Windows Guide</h4>
+                  <p class="text-zinc-600 text-xs leading-relaxed font-medium">
+                    Right-click the downloaded archive .zip folder and select “Extract All…”. Follow the prompts to save the game contents. <strong>Do not save the game folder to your desktop as this can cause permissions issues.</strong> 7zip and similar applications unzip faster.
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-zinc-100 border border-zinc-200 rounded-none p-5 flex gap-3 items-start">
+                <UIcon name="i-lucide-terminal" class="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
+                <div class="space-y-1">
+                  <h4 class="font-bold text-zinc-900 text-sm font-heading">Linux Guide</h4>
+                  <p class="text-zinc-600 text-xs leading-relaxed font-medium">
+                    Right-click the downloaded archive .zip folder and select “Extract Here” or “Extract to…” to choose a different folder to extract to. The Linux version is compiled and tested on Ubuntu.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-white border border-zinc-200 rounded-none p-8 shadow-sm hover:border-zinc-300 transition-colors flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-10 h-10 rounded-none bg-brand-50 text-brand-700 border border-brand-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
+            4
+          </div>
+          <div class="space-y-4 flex-1">
+            <div class="space-y-1.5">
+              <h2 class="text-xl font-bold font-heading text-zinc-900 tracking-tight">
+                Open the Game and Log In
+              </h2>
+              <p class="text-zinc-600 text-sm md:text-base leading-relaxed font-medium">
+                Once the files have finished extracting, open the extracted folder, double click “OneLife” to run the game. It will take a few minutes to load for the first time. Please wait until the loading finishes. It will be faster the next time you play.
+              </p>
+            </div>
+
+            <ul class="space-y-3 pl-1">
+              
+              <li class="flex items-start gap-3">
+                <UIcon name="i-lucide-check-square" class="w-4 h-4 text-brand-600 shrink-0 mt-1" />
+                <span class="text-zinc-700 text-sm font-medium">
+                  <strong>Credentials:</strong> Copy-and-paste your login details from the 2HOL Dictator bot from the Discord. Then click ‘PLAY’ to start playing!
+                </span>
+              </li>
+              <li class="flex items-start gap-3">
+                <UIcon name="i-lucide-check-square" class="w-4 h-4 text-brand-600 shrink-0 mt-1" />
+                <span class="text-zinc-700 text-sm font-medium">
+                  <strong>Auto-saving details:</strong> The game will save these details for you so you do not need to enter them each time. You should make sure to keep this information private.
+                </span>
+              </li>
+              <li class="flex items-start gap-3">
+                <UIcon name="i-lucide-check-square" class="w-4 h-4 text-brand-600 shrink-0 mt-1" />
+                <span class="text-zinc-700 text-sm font-medium">
+                  <strong>Linux launching:</strong> On Linux, you may need to open the command prompt and enter <code class="bg-zinc-100 px-1.5 py-0.5 rounded-none font-mono text-xs text-zinc-900 border border-zinc-200">./OneLife</code> to start the game.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="bg-zinc-900 text-white rounded-none p-8 space-y-4 shadow-md border border-zinc-800">
+        <h3 class="text-xl font-bold font-heading">Your First Life (The Tutorial)</h3>
+        <p class="text-zinc-300 text-sm md:text-base leading-relaxed font-medium">
+          The first time you log in, you will be in the tutorial, far away from other players. You need to read and follow the instructions to learn the basic game controls and mechanics. There will be a challenge at the end of the tutorial to make sure you are ready to be born into a family for real! Pay attention to the food mechanics (called Yum), and how to use the crafting guide.
+        </p>
+      </div>
+
+      <div class="bg-zinc-100 border border-zinc-200 rounded-none p-8 text-center space-y-4 shadow-sm">
+        <h3 class="text-lg font-bold font-heading text-zinc-900">After your first time</h3>
+        <p class="text-zinc-600 text-sm max-w-xl mx-auto font-medium leading-relaxed">
+          Take your time to start learning the game in each life, but don’t forget to explore our Discord. There are thousands of welcoming people willing to help you find your way and learn. As you play more, you’ll be able to access new roles, which will unlock more channels for you to contribute and connect with the community.
+        </p>
+        <div class="pt-1">
+          <UButton
+            to="https://discord.gg/Jd9Es3f"
+            target="_blank"
+            size="md"
+            class="bg-brand-500 hover:bg-brand-600 font-bold rounded-none shadow-none"
+          >
+            Join Discord
+          </UButton>
         </div>
       </div>
+
     </div>
   </div>
 </template>
