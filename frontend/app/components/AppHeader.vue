@@ -23,7 +23,7 @@ watch(() => route.fullPath, () => {
       </NuxtLink>
       
       <div class="hidden md:flex items-center space-x-6 font-medium">
-        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" class="hover:text-brand-500 transition-colors">{{ link.label }}</NuxtLink>
+        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" target="_blank" class="hover:text-brand-500 transition-colors">{{ link.label }}</NuxtLink>
         <UButton 
           to="/download"
         >
