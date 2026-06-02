@@ -24,7 +24,7 @@ useSeoMeta({
           <a 
             href="https://discord.gg/Jd9Es3f" 
             target="_blank" 
-            class="text-brand-700 font-bold underline hover:text-brand-600 transition-colors"
+            class="text-primary-700 font-bold underline hover:text-primary-600 transition-colors"
           >
             discord server
           </a>
@@ -36,7 +36,7 @@ useSeoMeta({
         <div class="border border-zinc-200 p-8 rounded-none bg-white shadow-sm hover:border-zinc-300 transition-colors flex flex-col justify-between space-y-6">
           <div class="space-y-4">
             <div class="flex items-center gap-3">
-              <UIcon name="i-lucide-monitor" class="w-8 h-8 text-brand-600" />
+              <UIcon name="i-lucide-monitor" class="w-8 h-8 text-primary-600" />
               <h3 class="text-xl font-bold font-heading text-zinc-900">Windows</h3>
             </div>
             <p class="text-zinc-500 text-sm font-medium">Windows 10 / 11 (32-bit)</p>
@@ -45,7 +45,7 @@ useSeoMeta({
           <div class="space-y-3">
             <UButton 
               :to="downloads.windows.link"
-              class="w-full justify-center rounded-none py-2.5 font-bold shadow-none bg-brand-500 hover:bg-brand-600 border border-transparent"
+              class="w-full justify-center rounded-none py-2.5 font-bold shadow-none bg-primary-500 hover:bg-primary-600 border border-transparent"
               icon="i-lucide-download"
             >
               Download Now
@@ -71,7 +71,7 @@ useSeoMeta({
           <div class="space-y-3">
             <UButton 
               :to="downloads.linux.link"
-              class="w-full justify-center rounded-none py-2.5 font-bold shadow-none bg-brand-500 hover:bg-brand-600 border border-transparent"
+              class="w-full justify-center rounded-none py-2.5 font-bold shadow-none bg-primary-500 hover:bg-primary-600 border border-transparent"
               icon="i-lucide-download"
             >
               Download now
@@ -87,13 +87,13 @@ useSeoMeta({
       </div>
 
       <div class="bg-zinc-100 border border-zinc-200 p-6 rounded-none flex flex-col sm:flex-row items-start gap-4 shadow-sm">
-        <UIcon name="i-lucide-info" class="text-brand-600 shrink-0 mt-1 w-6 h-6" />
+        <UIcon name="i-lucide-info" class="text-primary-600 shrink-0 mt-1 w-6 h-6" />
         <div>
           <h4 class="font-bold text-lg mb-1 font-heading text-zinc-900">Need help setting up the game?</h4>
           <p class="text-zinc-600 mb-3 text-sm md:text-base font-medium">
             If this is your first time playing, check out our guide to learn how to get started.
           </p>
-          <NuxtLink to="/first-time-playing" class="text-zinc-900 font-bold underline hover:text-brand-600 transition-colors text-sm">
+          <NuxtLink to="/first-time-playing" class="text-zinc-900 font-bold underline hover:text-primary-600 transition-colors text-sm">
             View First Time Playing Guide
           </NuxtLink>
         </div>

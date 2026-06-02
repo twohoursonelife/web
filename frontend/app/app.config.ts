@@ -21,7 +21,7 @@ export default defineAppConfig({
       variants: {
         variant: {
           solid: {
-            base: 'bg-brand-500 !text-zinc-900 hover:bg-brand-600 border border-transparent shadow-none'
+            base: 'bg-primary-500 !text-zinc-900 hover:bg-primary-600 border border-transparent shadow-none'
           },
           outline: {
             base: 'border border-zinc-300 !text-zinc-900 hover:bg-zinc-100 hover:text-zinc-900 hover:border-zinc-400 rounded-none shadow-none'

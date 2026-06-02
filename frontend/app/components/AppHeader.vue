@@ -23,7 +23,7 @@ watch(() => route.fullPath, () => {
       </NuxtLink>
       
       <div class="hidden md:flex items-center space-x-6 font-medium">
-        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" target="_blank" class="hover:text-brand-500 transition-colors">{{ link.label }}</NuxtLink>
+        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" target="_blank" class="hover:text-primary-500 transition-colors">{{ link.label }}</NuxtLink>
         <UButton 
           to="/first-time-playing"
         >
@@ -32,12 +32,12 @@ watch(() => route.fullPath, () => {
       </div>
 
       <div class="md:hidden">
-        <UButton variant="ghost" :icon="isMobileMenuOpen ? 'i-lucide-x' : 'i-lucide-menu'" @click="isMobileMenuOpen = !isMobileMenuOpen" class="bg-zinc-800 hover:bg-zinc-700 w-10 h-10 p-0! text-brand-500! hover:text-brand-400!" />
+        <UButton variant="ghost" :icon="isMobileMenuOpen ? 'i-lucide-x' : 'i-lucide-menu'" @click="isMobileMenuOpen = !isMobileMenuOpen" class="bg-zinc-800 hover:bg-zinc-700 w-10 h-10 p-0! text-primary-500! hover:text-primary-400!" />
       </div>
     </div>
     
     <div v-if="isMobileMenuOpen" class="md:hidden bg-zinc-800 absolute top-full left-0 right-0 border-t border-zinc-700 flex flex-col px-6 py-4 space-y-4 shadow-xl">
-      <NuxtLink v-for="link in links" :key="link.to" :to="link.to" class="block pb-2 border-b border-zinc-700 text-center hover:text-brand-500">{{ link.label }}</NuxtLink>
+      <NuxtLink v-for="link in links" :key="link.to" :to="link.to" class="block pb-2 border-b border-zinc-700 text-center hover:text-primary-500">{{ link.label }}</NuxtLink>
       <UButton 
         to="/first-time-playing"
         class="w-full mt-2"

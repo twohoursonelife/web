@@ -21,7 +21,7 @@ useSeoMeta({
       <div class="space-y-6">
         
         <section class="bg-white border border-zinc-200 rounded-none p-8 shadow-sm hover:border-zinc-300 transition-colors flex flex-col md:flex-row gap-6 items-start">
-          <div class="w-10 h-10 rounded-none bg-brand-50 text-brand-700 border border-brand-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
+          <div class="w-10 h-10 rounded-none bg-primary-50 text-primary-700 border border-primary-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
             1
           </div>
           <div class="space-y-4 flex-1">
@@ -47,7 +47,7 @@ useSeoMeta({
         </section>
 
         <section class="bg-white border border-zinc-200 rounded-none p-8 shadow-sm hover:border-zinc-300 transition-colors flex flex-col md:flex-row gap-6 items-start">
-          <div class="w-10 h-10 rounded-none bg-brand-50 text-brand-700 border border-brand-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
+          <div class="w-10 h-10 rounded-none bg-primary-50 text-primary-700 border border-primary-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
             2
           </div>
           <div class="space-y-5 flex-1 w-full">
@@ -99,7 +99,7 @@ useSeoMeta({
         </section>
 
         <section class="bg-white border border-zinc-200 rounded-none p-8 shadow-sm hover:border-zinc-300 transition-colors flex flex-col md:flex-row gap-6 items-start">
-          <div class="w-10 h-10 rounded-none bg-brand-50 text-brand-700 border border-brand-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
+          <div class="w-10 h-10 rounded-none bg-primary-50 text-primary-700 border border-primary-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
             3
           </div>
           <div class="space-y-4 flex-1">
@@ -114,7 +114,7 @@ useSeoMeta({
             
             <div class="grid md:grid-cols-2 gap-4 pt-2">
               <div class="bg-zinc-100 border border-zinc-200 rounded-none p-5 flex gap-3 items-start">
-                <UIcon name="i-lucide-monitor" class="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
+                <UIcon name="i-lucide-monitor" class="w-5 h-5 text-primary-600 shrink-0 mt-0.5" />
                 <div class="space-y-1">
                   <h4 class="font-bold text-zinc-900 text-sm font-heading">Windows Guide</h4>
                   <p class="text-zinc-600 text-xs leading-relaxed font-medium">
@@ -124,7 +124,7 @@ useSeoMeta({
               </div>
 
               <div class="bg-zinc-100 border border-zinc-200 rounded-none p-5 flex gap-3 items-start">
-                <UIcon name="i-lucide-terminal" class="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
+                <UIcon name="i-lucide-terminal" class="w-5 h-5 text-primary-600 shrink-0 mt-0.5" />
                 <div class="space-y-1">
                   <h4 class="font-bold text-zinc-900 text-sm font-heading">Linux Guide</h4>
                   <p class="text-zinc-600 text-xs leading-relaxed font-medium">
@@ -137,7 +137,7 @@ useSeoMeta({
         </section>
 
         <section class="bg-white border border-zinc-200 rounded-none p-8 shadow-sm hover:border-zinc-300 transition-colors flex flex-col md:flex-row gap-6 items-start">
-          <div class="w-10 h-10 rounded-none bg-brand-50 text-brand-700 border border-brand-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
+          <div class="w-10 h-10 rounded-none bg-primary-50 text-primary-700 border border-primary-200 flex items-center justify-center shrink-0 font-heading font-extrabold text-lg">
             4
           </div>
           <div class="space-y-4 flex-1">
@@ -153,19 +153,19 @@ useSeoMeta({
             <ul class="space-y-3 pl-1">
               
               <li class="flex items-start gap-3">
-                <UIcon name="i-lucide-check-square" class="w-4 h-4 text-brand-600 shrink-0 mt-1" />
+                <UIcon name="i-lucide-check-square" class="w-4 h-4 text-primary-600 shrink-0 mt-1" />
                 <span class="text-zinc-700 text-sm font-medium">
                   <strong>Credentials:</strong> Copy-and-paste your login details from the 2HOL Dictator bot from the Discord. Then click 'PLAY' to start playing!
                 </span>
               </li>
               <li class="flex items-start gap-3">
-                <UIcon name="i-lucide-check-square" class="w-4 h-4 text-brand-600 shrink-0 mt-1" />
+                <UIcon name="i-lucide-check-square" class="w-4 h-4 text-primary-600 shrink-0 mt-1" />
                 <span class="text-zinc-700 text-sm font-medium">
                   <strong>Auto-saving details:</strong> The game will save these details for you so you do not need to enter them each time. You should make sure to keep this information private.
                 </span>
               </li>
               <li class="flex items-start gap-3">
-                <UIcon name="i-lucide-check-square" class="w-4 h-4 text-brand-600 shrink-0 mt-1" />
+                <UIcon name="i-lucide-check-square" class="w-4 h-4 text-primary-600 shrink-0 mt-1" />
                 <span class="text-zinc-700 text-sm font-medium">
                   <strong>Linux launching:</strong> On Linux, you may need to open the command prompt and enter <code class="bg-zinc-100 px-1.5 py-0.5 rounded-none font-mono text-xs text-zinc-900 border border-zinc-200">./OneLife</code> to start the game.
                 </span>

@@ -16,7 +16,7 @@ useSeoMeta({
       
       <div class="relative z-10 max-w-5xl mx-auto text-center space-y-8">
         <h1 class="text-5xl md:text-6xl font-extrabold leading-tight font-heading drop-shadow-lg text-white">
-          Two Hours <span class="text-brand-500">One Life</span>
+          Two Hours <span class="text-primary-500">One Life</span>
         </h1>
         <p class="text-xl md:text-2xl text-zinc-200 max-w-2xl mx-auto font-medium leading-relaxed">
           A completely free-to-play fork of the open source game, One Hour One Life, originally created by Jason Rohrer.
@@ -45,12 +45,12 @@ useSeoMeta({
     <section id="about" class="py-20 px-6 max-w-6xl mx-auto bg-zinc-50">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold mb-4 font-heading text-zinc-900">What is 2HOL?</h2>
-        <div class="w-20 h-2 bg-brand-500 mx-auto rounded-none"></div>
+        <div class="w-20 h-2 bg-primary-500 mx-auto rounded-none"></div>
       </div>
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div class="space-y-6 text-lg text-zinc-700 leading-relaxed font-medium">
           <p>
-            Two Hours One Life is a standalone moderation of the original game <a href="https://onehouronelife.com/" target="_blank" class="text-zinc-900 font-bold underline hover:text-brand-600 transition-colors">One Hour One Life</a>, originally created by <a href="http://hcsoftware.sourceforge.net/jason-rohrer/" target="_blank" class="text-zinc-900 font-bold underline hover:text-brand-600 transition-colors">Jason Rohrer</a>. Our game is completely free to play and driven by the community.
+            Two Hours One Life is a standalone moderation of the original game <a href="https://onehouronelife.com/" target="_blank" class="text-zinc-900 font-bold underline hover:text-primary-600 transition-colors">One Hour One Life</a>, originally created by <a href="http://hcsoftware.sourceforge.net/jason-rohrer/" target="_blank" class="text-zinc-900 font-bold underline hover:text-primary-600 transition-colors">Jason Rohrer</a>. Our game is completely free to play and driven by the community.
           </p>
           <p>
             2HOL is different, allowing you much more freedom in how you want to play the game, with additional content and systems to enable you to enjoy it with strangers, friends or alone.
@@ -64,7 +64,7 @@ useSeoMeta({
 
     <section id="community" class="py-24 px-6 max-w-4xl mx-auto text-center bg-zinc-100 rounded-none mb-12 shadow-sm border border-zinc-200">
       <h2 class="text-3xl font-bold mb-4 font-heading text-zinc-900">Support Open Source</h2>
-      <div class="w-20 h-2 bg-brand-500 mx-auto rounded-none mb-8"></div>
+      <div class="w-20 h-2 bg-primary-500 mx-auto rounded-none mb-8"></div>
       
       <p class="text-xl text-zinc-600 mb-6 font-medium max-w-2xl mx-auto">
         While Two Hours One Life will always be free to play for any person, there are still costs to keep a volunteer-run game going every day.
