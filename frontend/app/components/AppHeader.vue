@@ -8,6 +8,7 @@ const links = [
   { label: 'Wiki', title: 'Community Wiki', to: 'https://twohoursonelife.fandom.com/', target: '_blank' },
   { label: 'Twotech', title: 'Visual crafting guide', to: 'https://twotech.twohoursonelife.com/', target: '_blank' },
   { label: 'Discord', title: 'Community', to: 'https://discord.gg/Jd9Es3f', target: '_blank' },
+  { label: 'Download', title: 'Download the game', to: '/first-time-playing' },
 ]
 
 // Auto-close mobile menu on route change
