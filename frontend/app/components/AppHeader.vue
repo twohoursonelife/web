@@ -25,7 +25,7 @@ watch(() => route.fullPath, () => {
       <div class="hidden md:flex items-center space-x-6 font-medium">
         <NuxtLink v-for="link in links" :key="link.to" :to="link.to" target="_blank" class="hover:text-brand-500 transition-colors">{{ link.label }}</NuxtLink>
         <UButton 
-          to="/download"
+          to="/first-time-playing"
         >
           Play Now
         </UButton>
