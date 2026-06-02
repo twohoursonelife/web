@@ -3,10 +3,11 @@ import { ref, watch } from 'vue'
 
 const route = useRoute()
 const isMobileMenuOpen = ref(false)
+
 const links = [
-  { label: 'Wiki', to: 'https://twohoursonelife.fandom.com/' },
-  { label: 'Twotech', to: 'https://twotech.twohoursonelife.com/' },
-  { label: 'Discord', to: 'https://discord.gg/Jd9Es3f' },
+  { label: 'Wiki', title: 'Community Wiki', to: 'https://twohoursonelife.fandom.com/', target: '_blank' },
+  { label: 'Twotech', title: 'Visual crafting guide', to: 'https://twotech.twohoursonelife.com/', target: '_blank' },
+  { label: 'Discord', title: 'Community', to: 'https://discord.gg/Jd9Es3f', target: '_blank' },
 ]
 
 // Auto-close mobile menu on route change
@@ -23,7 +24,16 @@ watch(() => route.fullPath, () => {
       </NuxtLink>
       
       <div class="hidden md:flex items-center space-x-6 font-medium">
-        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" target="_blank" class="hover:text-primary-500 transition-colors">{{ link.label }}</NuxtLink>
+        <NuxtLink 
+          v-for="link in links" 
+          :key="link.to" 
+          :to="link.to" 
+          :target="link.target" 
+          :title="link.title"
+          class="hover:text-primary-500 transition-colors w-24 text-center"
+        >
+          {{ link.label }}
+        </NuxtLink>
         <UButton 
           to="/first-time-playing"
         >
@@ -37,7 +47,16 @@ watch(() => route.fullPath, () => {
     </div>
     
     <div v-if="isMobileMenuOpen" class="md:hidden bg-zinc-800 absolute top-full left-0 right-0 border-t border-zinc-700 flex flex-col px-6 py-4 space-y-4 shadow-xl">
-      <NuxtLink v-for="link in links" :key="link.to" :to="link.to" class="block pb-2 border-b border-zinc-700 text-center hover:text-primary-500">{{ link.label }}</NuxtLink>
+      <NuxtLink 
+        v-for="link in links" 
+        :key="link.to" 
+        :to="link.to" 
+        :target="link.target"
+        :title="link.title"
+        class="block pb-2 border-b border-zinc-700 text-center hover:text-primary-500"
+      >
+        {{ link.label }}
+      </NuxtLink>
       <UButton 
         to="/first-time-playing"
         class="w-full mt-2"
