@@ -24,14 +24,14 @@ watch(() => route.fullPath, () => {
         <img src="/logo.png" alt="2HOL" class="h-10 object-contain" />
       </NuxtLink>
       
-      <div class="hidden md:flex items-center space-x-6 font-medium">
+      <div class="hidden md:flex items-center space-x-4 font-medium">
         <NuxtLink 
           v-for="link in links" 
           :key="link.to" 
           :to="link.to" 
           :target="link.target" 
           :title="link.title"
-          class="hover:text-primary-500 transition-colors w-24 text-center"
+          class="hover:text-primary-500 transition-colors w-20 text-center"
         >
           {{ link.label }}
         </NuxtLink>
@@ -47,14 +47,14 @@ watch(() => route.fullPath, () => {
       </div>
     </div>
     
-    <div v-if="isMobileMenuOpen" class="md:hidden bg-zinc-800 absolute top-full left-0 right-0 border-t border-zinc-700 flex flex-col px-6 py-4 space-y-4 shadow-xl">
+    <div v-if="isMobileMenuOpen" class="md:hidden bg-zinc-800 absolute top-full left-0 right-0 border-t border-zinc-700 flex flex-col px-6 py-3 space-y-3 shadow-xl">
       <NuxtLink 
         v-for="link in links" 
         :key="link.to" 
         :to="link.to" 
         :target="link.target"
         :title="link.title"
-        class="block pb-2 border-b border-zinc-700 text-center hover:text-primary-500"
+        class="block pb-1.5 border-b border-zinc-700 text-center hover:text-primary-500"
       >
         {{ link.label }}
       </NuxtLink>
