@@ -27,10 +27,10 @@ useSeoMeta({
           <div class="space-y-4 flex-1">
             <div class="space-y-1.5">
               <h2 class="text-xl font-bold font-heading text-zinc-900 tracking-tight">
-                Join the Discord to Get an Account
+                Join our Discord to Get an Account
               </h2>
               <p class="text-zinc-600 text-sm md:text-base leading-relaxed font-medium">
-                Join our Discord, accept the rules, and then our 2HOL Dictator bot will create an account for you and send you the information in a message. Can’t find the message? Type “/account” in the Discord and the bot will provide you the details again.
+                Join our Discord, accept the rules, and then our 2HOL Dictator bot will create an account for you and send you the information in a message. Can't find the message? Type '/account' in our Discord and the bot will provide you the details again.
               </p>
             </div>
             <div class="pt-1">
@@ -146,7 +146,7 @@ useSeoMeta({
                 Open the Game and Log In
               </h2>
               <p class="text-zinc-600 text-sm md:text-base leading-relaxed font-medium">
-                Once the files have finished extracting, open the extracted folder, double click “OneLife” to run the game. It will take a few minutes to load for the first time. Please wait until the loading finishes. It will be faster the next time you play.
+                Once the files have finished extracting, open the extracted folder, double click "OneLife" to run the game. It will take a few minutes to load for the first time. Please wait until the loading finishes. It will be faster the next time you play.
               </p>
             </div>
 
@@ -155,7 +155,7 @@ useSeoMeta({
               <li class="flex items-start gap-3">
                 <UIcon name="i-lucide-check-square" class="w-4 h-4 text-primary-600 shrink-0 mt-1" />
                 <span class="text-zinc-700 text-sm font-medium">
-                  <strong>Credentials:</strong> Copy-and-paste your login details from the 2HOL Dictator bot from the Discord. Then click 'PLAY' to start playing!
+                  <strong>Credentials:</strong> Join our Discord to get your login details from the 2HOL Dictator bot. Copy-and-paste them into the client and then click 'PLAY' to start playing!
                 </span>
               </li>
               <li class="flex items-start gap-3">
@@ -184,7 +184,7 @@ useSeoMeta({
       </div>
 
       <div class="bg-zinc-100 border border-zinc-200 rounded-none p-8 text-center space-y-4 shadow-sm">
-        <h3 class="text-lg font-bold font-heading text-zinc-900">After your first time</h3>
+        <h3 class="text-lg font-bold font-heading text-zinc-900">After your first life</h3>
         <p class="text-zinc-600 text-sm max-w-xl mx-auto font-medium leading-relaxed">
           Take your time to start learning the game in each life, but don't forget to explore our Discord. There are thousands of welcoming people willing to help you find your way and learn. As you play more, you'll be able to access new roles, which will unlock more channels for you to contribute and connect with the community.
         </p>

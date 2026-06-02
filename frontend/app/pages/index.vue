@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'Two Hours One Life | Play for free',
-  description: 'Two Hours One Life is a standalone fork (mod) of the original game One Hour One Life. Our game is completely free to play and driven by the community.',
+  description: 'Two Hours One Life is a standalone mod of the original game One Hour One Life. Our game is completely free to play and driven by the community.',
 })
 </script>
 
@@ -19,7 +19,7 @@ useSeoMeta({
           Two Hours <span class="text-primary-500">One Life</span>
         </h1>
         <p class="text-xl md:text-2xl text-zinc-200 max-w-2xl mx-auto font-medium leading-relaxed">
-          A completely free-to-play fork of the open source game, One Hour One Life, originally created by Jason Rohrer.
+          A completely free-to-play mod of the open source game, One Hour One Life, originally created by Jason Rohrer.
         </p>
         
         <div class="flex flex-col items-center gap-4 pt-4">
@@ -50,7 +50,7 @@ useSeoMeta({
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div class="space-y-6 text-lg text-zinc-700 leading-relaxed font-medium">
           <p>
-            Two Hours One Life is a standalone moderation of the original game <a href="https://onehouronelife.com/" target="_blank" class="text-zinc-900 font-bold underline hover:text-primary-600 transition-colors">One Hour One Life</a>, originally created by <a href="http://hcsoftware.sourceforge.net/jason-rohrer/" target="_blank" class="text-zinc-900 font-bold underline hover:text-primary-600 transition-colors">Jason Rohrer</a>. Our game is completely free to play and driven by the community.
+            Two Hours One Life is a standalone mod of the original game <a href="https://onehouronelife.com/" target="_blank" class="text-zinc-900 font-bold underline hover:text-primary-600 transition-colors">One Hour One Life</a>, originally created by <a href="http://hcsoftware.sourceforge.net/jason-rohrer/" target="_blank" class="text-zinc-900 font-bold underline hover:text-primary-600 transition-colors">Jason Rohrer</a>. Our game is completely free to play and driven by the community.
           </p>
           <p>
             2HOL is different, allowing you much more freedom in how you want to play the game, with additional content and systems to enable you to enjoy it with strangers, friends or alone.
@@ -71,7 +71,7 @@ useSeoMeta({
       </p>
       
       <p class="text-zinc-600 mb-10 font-medium max-w-xl mx-auto text-sm md:text-base leading-relaxed">
-        We’re committed to never putting you in a position where you're pressured to pay for benefit or advancements in the game. Any amount of support, monetary or not, is greatly appreciated and will go directly into the game.
+        We're committed to never putting you in a position where you're pressured to pay for benefit or advancements in the game. Any amount of support, monetary or not, is greatly appreciated and will go directly into the game.
       </p>
       
       <div class="flex flex-col items-center gap-6">
