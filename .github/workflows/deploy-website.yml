@@ -2,7 +2,8 @@ name: Deploy website
 
 on:
   push:
-    branches: ["main", "connorhsm/frontend"]
+    branches: 
+    - main
   workflow_dispatch:
 
 permissions:
