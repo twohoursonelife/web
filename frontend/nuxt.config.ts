@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   },
 
   gtag: {
-    id: '' // TODO
+    id: 'G-JKZYDCL7PX'
   },
 
   app: {
@@ -30,9 +30,6 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en'
       },
-      meta: [
-        { name: 'robots', content: 'noindex, nofollow' } // TODO
-      ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/img/icon.png' }
       ]
