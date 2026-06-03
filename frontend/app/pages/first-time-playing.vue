@@ -1,7 +1,14 @@
 <script setup lang="ts">
+const title = 'First Time Playing Guide | Two Hours One Life'
+const description = 'Learn how to play Two Hours One Life for the first time. Join our Discord to get your account, download the client, extract the files, and log in.'
+
 useSeoMeta({
-  title: 'First Time Playing Guide | Two Hours One Life',
-  description: 'Learn how to play Two Hours One Life for the first time. Join our Discord to get your account, download the client, extract the files, and log in.',
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: '/img/social.jpg',
+  twitterCard: 'summary_large_image',
 })
 </script>
 

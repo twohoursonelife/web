@@ -2,7 +2,7 @@
   <footer class="bg-zinc-900 text-zinc-400 py-12 px-6 border-t border-zinc-800 text-center">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 items-center gap-6">
       <NuxtLink to="/" class="group justify-self-center md:justify-self-start">
-        <img src="/icon.png" alt="2HOL Icon" class="w-10 h-10 object-contain grayscale opacity-50 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100" />
+        <img src="/img/icon.png" alt="2HOL Icon" class="w-10 h-10 object-contain grayscale opacity-50 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100" />
       </NuxtLink>
       <p class="text-sm justify-self-center">
         © {{ new Date().getFullYear() }} Two Hours One Life.

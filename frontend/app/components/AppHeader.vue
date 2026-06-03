@@ -21,7 +21,7 @@ watch(() => route.fullPath, () => {
   <header class="bg-zinc-900 text-white py-4 px-6 sticky top-0 z-50 shadow-md">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <NuxtLink to="/" class="hover:opacity-80 transition-opacity">
-        <img src="/logo.png" alt="2HOL" class="h-10 object-contain" />
+        <img src="/img/logo.png" alt="2HOL" class="h-10 object-contain" />
       </NuxtLink>
       
       <div class="hidden md:flex items-center space-x-4 font-medium">

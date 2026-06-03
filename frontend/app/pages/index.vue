@@ -1,8 +1,32 @@
 <script setup lang="ts">
+const title = 'Two Hours One Life | Play for free'
+const description = 'Two Hours One Life is a standalone mod of the original game One Hour One Life. Our game is completely free to play and driven by the community.'
+
 useSeoMeta({
-  title: 'Two Hours One Life | Play for free',
-  description: 'Two Hours One Life is a standalone mod of the original game One Hour One Life. Our game is completely free to play and driven by the community.',
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: '/img/social.jpg',
+  twitterCard: 'summary_large_image',
 })
+
+useSchemaOrg([
+  {
+    '@type': 'VideoGame',
+    name: 'Two Hours One Life',
+    description: 'A completely free-to-play, community-driven survival and crafting game based on One Hour One Life.',
+    genre: ['Survival', 'Crafting', 'Multiplayer'],
+    gamePlatform: ['Windows', 'Linux'],
+    applicationCategory: 'Game',
+    operatingSystem: 'Windows, Linux',
+    offers: {
+      '@type': 'Offer',
+      price: '0.00',
+      priceCurrency: 'USD'
+    }
+  }
+])
 </script>
 
 <template>
@@ -19,7 +43,7 @@ useSeoMeta({
           Two Hours <span class="text-primary-500">One Life</span>
         </h1>
         <p class="text-xl md:text-2xl text-zinc-200 max-w-2xl mx-auto font-medium leading-relaxed">
-          A completely free-to-play mod of the open source game, One Hour One Life, originally created by Jason Rohrer.
+          A completely free-to-play multiplayer survival and community-driven crafting game mod of One Hour One Life.
         </p>
         
         <div class="flex flex-col items-center gap-4 pt-4">
@@ -44,7 +68,7 @@ useSeoMeta({
 
     <section id="about" class="py-20 px-6 max-w-6xl mx-auto bg-zinc-50">
       <div class="text-center mb-16">
-        <h2 class="text-3xl font-bold mb-4 font-heading text-zinc-900">What is 2HOL?</h2>
+        <h2 class="text-3xl font-bold mb-4 font-heading text-zinc-900">What is Two Hours One Life (2HOL)?</h2>
         <div class="w-20 h-2 bg-primary-500 mx-auto rounded-none"></div>
       </div>
       <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -53,7 +77,7 @@ useSeoMeta({
             Two Hours One Life is a standalone mod of the original game <a href="https://onehouronelife.com/" target="_blank" class="text-zinc-900 font-bold underline hover:text-primary-600 transition-colors">One Hour One Life</a>, originally created by <a href="http://hcsoftware.sourceforge.net/jason-rohrer/" target="_blank" class="text-zinc-900 font-bold underline hover:text-primary-600 transition-colors">Jason Rohrer</a>. Our game is completely free to play and driven by the community.
           </p>
           <p>
-            2HOL is different, allowing you much more freedom in how you want to play the game, with additional content and systems to enable you to enjoy it with strangers, friends or alone.
+            2HOL is different, providing a free multiplayer survival game experience with more freedom in how you want to play, including unique crafting content and mechanics to enjoy with friends or alone.
           </p>
         </div>
         <div class="rounded-none h-80 shadow-lg overflow-hidden relative">

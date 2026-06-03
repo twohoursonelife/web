@@ -1,9 +1,16 @@
 <script setup lang="ts">
 const { downloads } = useAppConfig()
 
+const title = 'Download Game Client | Two Hours One Life'
+const description = 'Download the latest version of Two Hours One Life. Precompiled Windows and Linux builds with mirror options are available.'
+
 useSeoMeta({
-  title: 'Download Game Client | Two Hours One Life',
-  description: 'Download the latest version of Two Hours One Life. Precompiled Windows and Linux builds with mirror options are available.',
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: '/img/social.jpg',
+  twitterCard: 'summary_large_image',
 })
 </script>
 

@@ -2,7 +2,7 @@
   <Transition name="fade">
     <div
       v-if="loadingState.isLoading"
-      class="fixed top-0 left-0 right-0 h-[2px] z-[60] overflow-hidden pointer-events-none transition-opacity duration-300"
+      class="fixed top-0 left-0 right-0 h-0.5 z-60 overflow-hidden pointer-events-none transition-opacity duration-300"
       :class="{ 'opacity-0': !loadingState.isTransitioning }"
     >
       <div class="h-full bg-primary-500 animate-progress"></div>
