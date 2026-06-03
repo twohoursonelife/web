@@ -1,0 +1,1 @@
+# Bypass Jekyll to allow serving directories starting with underscores (like _nuxt/)
