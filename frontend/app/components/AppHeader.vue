@@ -20,8 +20,8 @@ watch(() => route.fullPath, () => {
 <template>
   <header class="bg-zinc-900 text-white py-4 px-6 sticky top-0 z-50 shadow-md">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <NuxtLink to="/" class="hover:opacity-80 transition-opacity">
-        <img src="/img/logo.png" alt="2HOL" class="h-10 object-contain" />
+      <NuxtLink to="/" class="hover:opacity-80 transition-opacity" aria-label="Home">
+        <NuxtImg src="/img/logo.png" height="40" alt="2HOL logo" class="h-10 object-contain" format="webp" />
       </NuxtLink>
       
       <div class="hidden md:flex items-center space-x-4 font-medium">
@@ -43,7 +43,7 @@ watch(() => route.fullPath, () => {
       </div>
 
       <div class="md:hidden">
-        <UButton variant="ghost" :icon="isMobileMenuOpen ? 'i-lucide-x' : 'i-lucide-menu'" @click="isMobileMenuOpen = !isMobileMenuOpen" class="bg-zinc-800 hover:bg-zinc-700 w-10 h-10 p-0! text-primary-500! hover:text-primary-400!" />
+        <UButton variant="ghost" :icon="isMobileMenuOpen ? 'i-lucide-x' : 'i-lucide-menu'" @click="isMobileMenuOpen = !isMobileMenuOpen" class="bg-zinc-800 hover:bg-zinc-700 w-10 h-10 p-0! text-primary-500! hover:text-primary-400!" aria-label="Toggle navigation menu" />
       </div>
     </div>
     
