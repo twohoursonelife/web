@@ -1,4 +1,5 @@
 export default defineAppConfig({
+  pageTransitionDelay: 100,
   downloads: {
     version: '20326',
     windows: {
