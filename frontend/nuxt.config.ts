@@ -2,10 +2,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
-  routeRules: {
-    '/img/**': { headers: { 'cache-control': 'public, max-age=2592000' } }, // 30 days
-    '/_nuxt/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } } // 1 year
-  },
+  // Not applicable while on GitHub Pages static site
+  // routeRules: {
+  //   '/img/**': { headers: { 'cache-control': 'public, max-age=2592000' } }, // 30 days
+  //   '/_nuxt/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } } // 1 year
+  // },
 
   modules: [
     '@nuxt/fonts',
