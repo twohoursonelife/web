@@ -94,7 +94,6 @@ useSeoMeta({
                 </div>
                 <UButton
                   to="/download"
-                  target="_blank"
                   variant="outline"
                   icon="i-lucide-download"
                 >
