@@ -17,6 +17,11 @@ build:
 preview:
     bun run preview
 
+# Update dependencies to their latest versions
+update:
+    bun update --latest
+    bun run generate
+
 # Clean build artifacts and dependencies
 clean:
     rm -rf .nuxt .output node_modules

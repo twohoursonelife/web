@@ -44,6 +44,9 @@ just build
 # Preview production build locally
 just preview
 
+# Update dependencies to their latest versions
+just update
+
 # Clean build folders and dependencies
 just clean
 ```
