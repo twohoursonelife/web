@@ -1,14 +1,14 @@
 export default defineAppConfig({
   pageTransitionDelay: 100,
   downloads: {
-    version: '20326',
+    version: '20327',
     windows: {
-      link: 'https://github.com/twohoursonelife/OneLife/releases/download/2HOL_v20326/2HOL_win_v20326.zip',
-      mirror: 'https://web.twohoursonelife.com/downloads/2HOL_win_v20326.zip'
+      link: 'https://github.com/twohoursonelife/OneLife/releases/download/2HOL_v20327/2HOL_win_v20327.zip',
+      mirror: 'https://web.twohoursonelife.com/downloads/2HOL_win_v20327.zip'
     },
     linux: {
-      link: 'https://github.com/twohoursonelife/OneLife/releases/download/2HOL_v20326/2HOL_linux_v20326.zip',
-      mirror: 'https://web.twohoursonelife.com/downloads/2HOL_linux_v20326.zip'
+      link: 'https://github.com/twohoursonelife/OneLife/releases/download/2HOL_v20327/2HOL_linux_v20327.zip',
+      mirror: 'https://web.twohoursonelife.com/downloads/2HOL_linux_v20327.zip'
     }
   },
   ui: {
