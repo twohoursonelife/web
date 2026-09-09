@@ -7,7 +7,7 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: '/img/background.jpg',
+  ogImage: '/img/2026-background-small.png',
   twitterCard: 'summary_large_image',
 })
 
@@ -34,7 +34,7 @@ useSchemaOrg([
     
     <section class="relative bg-zinc-900 text-white pt-16 pb-24 px-6 border-t border-zinc-800 overflow-hidden">
       <div class="absolute inset-0 z-0">
-        <NuxtImg src="/img/background.jpg" width="1280" height="720" class="w-full h-full object-cover" alt="Hero Background" format="webp" loading="eager" fetchpriority="high" />
+        <NuxtImg src="/img/2026-background-small.png" width="1280" height="720" class="w-full h-full object-cover" alt="Hero Background" format="webp" loading="eager" fetchpriority="high" />
         <div class="absolute inset-0 bg-zinc-900/70"></div>
       </div>
       
@@ -81,7 +81,7 @@ useSchemaOrg([
           </p>
         </div>
         <div class="rounded-none h-80 shadow-lg overflow-hidden relative">
-          <NuxtImg src="/img/background-2024.png" width="960" height="540" alt="2HOL Game Screenshot" class="w-full h-full object-cover" format="webp" loading="lazy" />
+          <NuxtImg src="/img/2026-background-small.png" width="960" height="540" alt="2HOL Game Screenshot" class="w-full h-full object-cover" format="webp" loading="lazy" />
         </div>
       </div>
     </section>
