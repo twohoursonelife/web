@@ -26,6 +26,10 @@ export default defineNuxtConfig({
     id: 'G-JKZYDCL7PX'
   },
 
+  image: {
+    provider: 'none'
+  },
+
   app: {
     head: {
       htmlAttrs: {
