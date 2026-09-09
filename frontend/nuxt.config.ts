@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     'nuxt-gtag',
     '@nuxtjs/seo',
+    // Keep pinned at 2.0.0: 2.1.0's IPX v4 handler stalls Nitro prerendering.
     '@nuxt/image'
   ],
 
@@ -24,10 +25,6 @@ export default defineNuxtConfig({
 
   gtag: {
     id: 'G-JKZYDCL7PX'
-  },
-
-  image: {
-    provider: 'none'
   },
 
   app: {
